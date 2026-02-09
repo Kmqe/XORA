@@ -4,7 +4,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 const NavLink = ({ title }) => (
   // notic:max-lg:h5 !!
-  <LinkScroll className="base-bold text-p4 uppercase transition-colors duration-1000 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:text-2xl">
+  <LinkScroll className="base-bold text-p4 uppercase transition-colors duration-1000 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5">
     {title}
   </LinkScroll>
 );

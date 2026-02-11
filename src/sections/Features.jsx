@@ -7,29 +7,13 @@ const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div
-            className="relative
-flex
-md:flex-wrap
-flex-nowrap
-border-2
-border-s3
-rounded-7xl
-md:overflow-hidden
-max-md:flex-col
-feature-after
-md:g7
-max-md:border-none
-max-md:rounded-none
-max-md:gap-3
-"
-          >
+          <div className="relative flex md:flex-wrap flex-nowrap border-2 border-s3 rounded-7xl md:overflow-hidden max-md:flex-col feature-after md:g7 max-md:border-none max-md:rounded-none max-md:gap-3">
             {features.map(({ id, icon, caption, title, text, button }) => (
               <div
                 key={id}
                 className="relative z-2 md:px-10 px-5 md:pb-10 pb-5 flex-50 max-md:g7 max-md:border-2 max-md:border-s3 max-md:rounded-3xl max-md:flex-320"
               >
-                <div className="w-full flex justify-start items-start">
+                <dvi className="w-full flex justify-start items-start">
                   <div className="-ml-3 mb-12 flex flex-col items-center justify-center">
                     <div className="w-0.5 h-16 bg-s3" />
                     <img
@@ -38,7 +22,7 @@ max-md:gap-3
                       alt={title}
                     />
                   </div>
-                </div>
+                </dvi>
                 <p className="caption mb-5 max-md:mb-6">{caption}</p>
                 <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5">
                   {title}
@@ -72,5 +56,4 @@ max-md:gap-3
     </section>
   );
 };
-
 export default Features;

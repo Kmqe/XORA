@@ -1,4 +1,4 @@
-const Marker = ({ fill }) => {
+export const Marker = ({ fill }) => {
   return (
     <svg
       width="8"
@@ -16,5 +16,3 @@ const Marker = ({ fill }) => {
     </svg>
   );
 };
-
-export default Marker;
